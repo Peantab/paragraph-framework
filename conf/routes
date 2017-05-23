@@ -12,4 +12,5 @@ GET     /message                    controllers.AsyncController.message
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
-GET     /provide_xml/              controllers.HomeController.button
+POST     /provide_xml/              controllers.HomeController.button
+GET      /start/                    controllers.GameController.index(xml : String)

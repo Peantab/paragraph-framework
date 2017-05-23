@@ -28,7 +28,9 @@ class HomeController @Inject()(val messagesApi: MessagesApi) extends Controller 
   }
 
   def button = Action { implicit request =>
-    Ok(views.html.index(xmlForm))
+    val fetch : UserXML = xmlForm.bindFromRequest().get
+
+    Redirect(routes.GameController.index(fetch.xml))
   }
 
   val xmlForm = Form(

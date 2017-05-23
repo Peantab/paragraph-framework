@@ -3,10 +3,10 @@
     <div id="header">Paragraph</div>
 <p>Load your adventure in area below:</p>
 <center>
-@helper.form(action = routes.HomeController.button) {
+<form method="post" action="@routes.HomeController.button">
     @helper.textarea(field = xmlForm("xml"), args = 'rows -> 3, 'cols -> 50)
     <input type="submit" value="Play" />
-}
+</form>
 </center>
 <br />
 </div>

@@ -1,0 +1,15 @@
+div#scene>p{
+    text-align: left;
+}
+
+p.firstParagraph:first-letter{
+    display: inline;
+    font-size: 2.5em;
+    padding-left: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+pre{
+    display: inline;
+}

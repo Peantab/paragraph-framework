@@ -1,0 +1,123 @@
+body {background:url('../images/thumb3.jpg') 0 0 repeat;}
+
+/*
+body{
+    background-color: #a76133;
+}
+*/
+div#main{
+    /*display: inline-block;*/
+    align-content: center;
+    margin: 2% 4%;
+    padding: 1%;
+    /*background-color: #f38e4a;*/
+    background: rgba(114, 120, 118, 0.7);
+    filter: alpha(opacity=50);
+    box-shadow:0 0 5px;
+}
+
+div#header{
+    text-align: center;
+    font-family: MathJax_Fraktur;
+    font-size: 5pc;
+    font-weight: bold;
+}
+
+div#scene{
+    /*text-align: center;*/
+    text-align: left;
+}
+
+a{
+    cursor: pointer;
+}
+
+a.menu{
+    text-align: center;
+    display: block;
+    font-size: 2pc;
+    font-family: Purisa;
+    font-style: oblique;
+}
+
+a.option{
+    /*display: list-item;*/
+    display: block;
+    font-size: 1.3em;
+    margin: 0.5em;
+
+}
+
+a.option:before{
+    content: ">";
+    padding-right: 0.4em;
+}
+
+div#pshr{
+    display: none;
+    background-color: #a76133;
+    margin: 0% 47%;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+/*img:not(.krecha){
+    display: block;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    margin-left: 85%;
+    margin-top: -10%;
+    margin-bottom: 0%;
+}*/
+
+img.krecha{
+    display: block;
+
+    width: 8%;
+    position: relative;
+    left: 46%;
+}
+
+p#credits{
+    font-size: 11px;
+    text-align: right;
+}
+
+div#description{
+    margin: 2% 4%;
+    padding: 0.5em;
+    height: 5em;
+    /*background-color: #462915;*/
+    background-color: #4e504f;
+    box-shadow:0 0 5px;
+    color: black;
+    /*color: white;*/
+}
+
+div#scene>h2{
+    text-align: center;
+}
+
+div#pic{
+    display: block;
+    position: fixed;
+    margin-left: 73%;
+    margin-top: -8%;
+    width: 15%;
+    /*height: 20%;*/
+    /*background-color: deeppink;*/
+
+}
+
+div#pic>img{
+    width: 100%;
+    height: 100%;
+}
+
+input[type="text"]{
+    background-color: lightgrey;
+    border: 1px solid rgba(56, 50, 42, 0.94);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px #38322a;
+}

@@ -1,12 +1,10 @@
-[<img src="https://img.shields.io/travis/playframework/play-scala-starter-example.svg"/>](https://travis-ci.org/playframework/play-scala-starter-example)
+# Paragraph Framework
 
-# Play Scala Starter
-
-This is a starter application that shows how Play works.  Please see the documentation at https://www.playframework.com/documentation/latest/Home for more details.
+Framework for gamebooks. Content is written in simple XML.
 
 ## Running
 
-Run this using [sbt](http://www.scala-sbt.org/).  If you downloaded this project from http://www.playframework.com/download then you'll find a prepackaged version of sbt in the project directory:
+Run this using [sbt](http://www.scala-sbt.org/):
 
 ```
 sbt run

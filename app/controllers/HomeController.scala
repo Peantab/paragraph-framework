@@ -30,7 +30,7 @@ class HomeController @Inject()(val messagesApi: MessagesApi) extends Controller 
   def button = Action { implicit request =>
     val fetch : UserXML = xmlForm.bindFromRequest().get
 
-    Redirect(routes.GameController.index(fetch.xml))
+    Redirect(routes.TitleController.index(fetch.xml))
   }
 
   val xmlForm = Form(

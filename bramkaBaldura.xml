@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamebook>
+    <header>
+        <title>Bramka Baldura</title>
+    </header>
+    <state>
+        <page-id>0</page-id>
+    </state>
+    <title-screen>
+        <blurb>
+            Parodia papierowych RPGów Dungeons &amp; Dragons oraz ich komputerowych adaptacji, zanurzona w świecie informatyki.<br />Wyrusz na emocjonującą przgodę w najdalszych rubieżach końcówki systemu informatycznego.
+        </blurb>
+        <button>Kliknij aby kontynuować</button>
+    </title-screen>
+    <selection page-id="0" tag="klasa">
+        <header1>Tworzenie postaci</header1>
+        <header2>Wybierz płeć</header2>
+        <option short="k" value="Kobieta">Kobiety w serwerowni mogą awansować w dowolnym paradygmacie, który wybiorą – mogą być magami, złodziejami czy znawczyniami sztuki wojennej.</option>
+        <option short="m" value="Mężczyzna">Mężczyźni są przeważająca rasą w serwerowni. Oni również mogą awansować w dowolnym paradygmacie.</option>
+        <next>1</next>
+    </selection>
+</gamebook>

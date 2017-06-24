@@ -15,7 +15,7 @@ import play.api.i18n.MessagesApi
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(val messagesApi: MessagesApi) extends Controller with I18nSupport {
+class HomeController @Inject() (val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
   /**
    * Create an Action to render an HTML page with a welcome message.
@@ -27,20 +27,9 @@ class HomeController @Inject()(val messagesApi: MessagesApi) extends Controller 
     Ok(views.html.index(xmlForm))
   }
 
-  def button = Action { implicit request =>
-    val fetch : UserXML = xmlForm.bindFromRequest().get
-
-    Redirect(routes.TitleController.index(fetch.xml))
-  }
-
   val xmlForm = Form(
     mapping(
       "xml" -> nonEmptyText
     )(UserXML.apply)(UserXML.unapply)
   )
 }
-
-case class UserXML(xml: String)
-//object HomeController{
-//
-//}

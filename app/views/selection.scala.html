@@ -1,9 +1,12 @@
-@(title: String, button: String, blurb: String, xml : String, style: String = "scala")
+@(header1: String, header2: String, link: String, xml : String)
 
 @defining(play.core.PlayVersion.current) { version =>
 <div id="main">
-    <div id="header">@title</div>
-    <div id="description">@blurb</div>
-
+    <div id="header">@header1</div>
+    <div id="scene">
+        <h2 id="CCSub">@header2</h2>
+        <div id="description"></div>
+        @Html(link)
+    </div>
 </div>
 }

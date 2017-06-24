@@ -12,11 +12,31 @@
         </blurb>
         <button>Kliknij aby kontynuować</button>
     </title-screen>
-    <selection page-id="0" tag="klasa">
+    <selection page-id="0" tag="plec">
         <header1>Tworzenie postaci</header1>
         <header2>Wybierz płeć</header2>
-        <option short="k" value="Kobieta">Kobiety w serwerowni mogą awansować w dowolnym paradygmacie, który wybiorą – mogą być magami, złodziejami czy znawczyniami sztuki wojennej.</option>
-        <option short="m" value="Mężczyzna">Mężczyźni są przeważająca rasą w serwerowni. Oni również mogą awansować w dowolnym paradygmacie.</option>
+        <option short="k" value="Kobieta &#9792;">Kobiety w serwerowni mogą awansować w dowolnym paradygmacie, który wybiorą – mogą być magami, złodziejami czy znawczyniami sztuki wojennej.</option>
+        <option short="m" value="Mężczyzna &#9794;">Mężczyźni są przeważająca rasą w serwerowni. Oni również mogą awansować w dowolnym paradygmacie.</option>
         <next>1</next>
     </selection>
+    <selection page-id="1" tag="klasa">
+        <header1>Tworzenie postaci</header1>
+        <header2>Wybierz klasę</header2>
+        <option short="m" value="Mag &#9882;">Posiada głęboką wiedzę i pisze zgodnie ze sztuką i duchem języka. Jego programy są najbardziej złożone, jednak ich implementacja zajmuje najwięcej czasu.</option>
+        <option short="w" value="Wojownik &#9876;">Wojownik to rycerz, fechmistrz, żołnierz i miłośnik potyczek algorytmicznych. Najbardziej bezpośreni z trójki, jego głównym atutem jest Brute Force - pisze programy szybko, ale nie są one najlepsze.</option>
+        <option short="z" value="Złodziej &#9923;">Złodziej to zręczny hacker, który stara się osiągnąć własne cele – dobre lub złe. Potrafi stworzyć tylko najprostsze programy, lecz może <i>pożyczyć</i> kod znajdujący się w pobliżu.</option>
+        <next>2</next>
+    </selection>
+    <text page-id="2" tag="imie" default="Makro" accept="Zatwierdź">
+        <header1>Tworzenie postaci</header1>
+        <header2>Nadaj imię</header2>
+        <next>3</next>
+    </text>
+    <paragraph page-id="3">
+        <header1>Segment 1</header1>
+        <header2>Wprowadzenie</header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag01.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Znajdujesz się w karczmie, gdzieś na bezludziu Mostka Południowego. Popijałeś właśnie WINE i komentowałeś z karczmarzem warunki panujące w okolicy. Nagle drzwi otwierają się z hukiem.&lt;/p&gt;&lt;p&gt;– Straszna zawieja tam na zewnątrz! Jakiś pakiet z samego Sieciowego Podzespołu przywiało! – woła od progu przybysz, wyraźnie nie pochodzący z tych stron.&lt;/p&gt;&lt;p&gt;Tragarz danych to dość niewdzięczna fucha, a Ty chcesz odpocząć po ciężkim dniu.&lt;/p&gt;&lt;p&gt;– Odstawię go jutro na jakiś port, prześlą go, gdzie trzeba... – odpowiadasz od niechcenia.&lt;/p&gt;&lt;p&gt;– Jutro może być za późno... Nie został mu długi Time To Live.&lt;/p&gt;&lt;p&gt;Nie widząc innej możliwości wychodzisz zrezygnowany przed karczmę w poszukiwaniu nieszczęsnego pakietu.&lt;/p&gt;</description>
+        <answer next="1">Kontynuuj</answer>
+    </paragraph>
 </gamebook>

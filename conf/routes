@@ -12,9 +12,16 @@ GET     /message                    controllers.AsyncController.message
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
-POST     /provide_xml/              controllers.HomeController.button
-GET      /start/                    controllers.TitleController.index(xml : String)
+POST      /start/                    controllers.TitleController.index()
 
-POST    /navigate/                 controllers.NavigationController.navigate
+POST    /navigate/                 controllers.NavigationController.navigate()
+GET    /navigate/                 controllers.NavigationController.navigate()
 
-GET     /selection/                 controllers.SelectionController.index(xml: String)
+POST    /selection/                 controllers.SelectionController.index()
+
+GET    /bind/                      controllers.BindData.bind()
+POST    /bind/                      controllers.BindData.bind()
+
+POST     /text/                 controllers.TextController.index()
+
+POST     /paragraph/                 controllers.ParagraphController.index()

@@ -1,0 +1,22 @@
+@(header1: String, header2: String, tag: String, default: String, accept: String, nextPage: String, xml : String)
+
+@defining(play.core.PlayVersion.current) { version =>
+<div id="main">
+    <div id="header">@header1</div>
+    <div id="scene">
+        <h2 id="CCSub">@header2</h2>
+        <input type="text" id="user" value="@default" oninput="update()" />
+        <form method="POST" action="@routes.BindData.bind()" style="text-align: center">
+            <input type="text"  id="cloned" name="map" value="page-id=@nextPage:@tag=@default:" style="display: none" />
+            <input type="text" name="xml" value="@xml" style="display: none" />
+            <input type="submit" value="@accept" class="answer" />
+        </form>
+    </div>
+</div>
+<script>
+    function update() {
+        var content = document.getElementById("user").value;
+        document.getElementById("cloned").value = "page-id=@nextPage:@tag=" + content + ":";
+    }
+</script>
+}

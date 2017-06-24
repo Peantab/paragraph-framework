@@ -45,7 +45,8 @@ a.option{
     display: block;
     font-size: 1.3em;
     margin: 0.5em;
-
+    text-decoration: none;
+    color: inherit
 }
 
 a.option:before{
@@ -120,4 +121,14 @@ input[type="text"]{
     border: 1px solid rgba(56, 50, 42, 0.94);
     border-radius: 5px;
     box-shadow: 0 0 2px 1px #38322a;
+}
+
+input.answer{
+    font-size: x-large;
+    background: none;
+    border:none;
+    padding:0;
+    cursor: pointer;
+    color: black;
+    display: block;
 }

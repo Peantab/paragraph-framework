@@ -1,0 +1,15 @@
+@(header1: String, header2: String, picture: String, description: String, answers: String, xml : String)
+
+@defining(play.core.PlayVersion.current) { version =>
+<div id="main">
+    <div id="header">@header1</div>
+    <div id="pic"><img src="@Html(picture)" /></div>
+    <div id="scene">
+        <h2 id="CCSub">@header2</h2>
+        @Html(description)
+        <div id="options">
+            @Html(answers)
+        </div>
+    </div>
+</div>
+}

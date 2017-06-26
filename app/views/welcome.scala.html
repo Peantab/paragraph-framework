@@ -1,4 +1,4 @@
-@(title: String, button: String, blurb: String, xml : String, style: String = "scala")
+@(title: String, button: String, blurb: String, author: String, xml : String)
 
 @defining(play.core.PlayVersion.current) { version =>
 <div id="main">
@@ -9,5 +9,8 @@
         <input type="text" name="map" value="=" style="display: none"/>
         <input type="submit" value="@button" style="font-size: x-large; background: none; border:none; padding:0; cursor: pointer; color: black" />
     </form>
+    <div id="options">
+        <p id="credits">@author</p>
+    </div>
 </div>
 }

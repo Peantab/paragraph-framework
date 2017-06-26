@@ -29,7 +29,7 @@ class TextController @Inject()(val messagesApi: MessagesApi) extends Controller 
     val header2 = (text \ "header2").text
     val tag = (text \ "@tag").text
     val default = (text \ "@default").text
-    val accept = (text \ "@accept").text
+    val accept = "> " + (text \ "@accept").text
     val nextPage = (text \ "next").text
 
     Ok(views.html.main(title)(content = views.html.text(header1, header2, tag, default, accept, nextPage, xml.xml)))

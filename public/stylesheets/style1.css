@@ -143,3 +143,11 @@ input.stateButton{
     border-color: grey;
     color: black;
 }
+
+dd.info{
+    display: none;
+}
+
+label[for="xml"]{
+    display: none;
+}

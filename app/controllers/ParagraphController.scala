@@ -29,15 +29,15 @@ class ParagraphController @Inject()(val messagesApi: MessagesApi) extends Contro
     val header1 = (paragraph \ "header1").text
     val header2 = (paragraph \ "header2").text
     val picture = (paragraph \ "picture").text
-    val description = injectValues((paragraph \ "description").text, p)
+    val description = ParagraphController.injectValues((paragraph \ "description").text, p)
 
     val answers = paragraph \ "answer"
     var answersCode = ""
     for (e <- answers){
       val condition = (e \ "@condition").text
-      if(cndtn(condition, p)) {
+      if(ParagraphController.cndtn(condition, p)) {
         var mapToEncode: Map[Any, Any] = Map("page-id" -> (e \ "@next").text)
-        mapToEncode = mapToEncode ++ effect((e \ "@effect").text, p)
+        mapToEncode = mapToEncode ++ ParagraphController.effect((e \ "@effect").text, p)
         var stringMap = ""
         for ((k, v) <- mapToEncode) {
           stringMap = stringMap + k + "=" + v + ":"
@@ -45,7 +45,7 @@ class ParagraphController @Inject()(val messagesApi: MessagesApi) extends Contro
         answersCode += "<form method=\"POST\" action=\"/bind/\" style=\"text-align: center\">" +
           "<input type=\"text\" name=\"xml\" value=\"" + scala.xml.Utility.escape(xml.xml) + "\" style=\"display: none\" />" +
           "<input type=\"text\" name=\"map\" value=\"" + stringMap + "\" style=\"display: none\" />" +
-          "<input type=\"submit\" value=\"" + injectValues(e.text, p) + "\" class=\"answer\" />" +
+          "<input type=\"submit\" value=\"> " + ParagraphController.injectValues(e.text, p) + "\" class=\"answer\" />" +
           "</form>"
       }
     }
@@ -53,6 +53,16 @@ class ParagraphController @Inject()(val messagesApi: MessagesApi) extends Contro
     Ok(views.html.main(title)(content = views.html.paragraph(header1, header2, picture, description, answersCode, xml.xml)))
   }
 
+  def attributeEquals(name: String, value: Text)(node: Node) = node.attributes.exists(_ == value)
+
+  val xmlForm = Form(
+    mapping(
+      "xml" -> nonEmptyText
+    )(UserXML.apply)(UserXML.unapply)
+  )
+}
+
+object ParagraphController {
   def cndtn(cond: String, xml: scala.xml.Elem):Boolean = {
     var oredList: List[Boolean] = List(false)
     for (ored <- cond.split(":")){
@@ -91,11 +101,12 @@ class ParagraphController @Inject()(val messagesApi: MessagesApi) extends Contro
         val current = try {(xml \ "state" \ attributeAndValue(0)).text.toInt } catch {
           case _: NumberFormatException => 0
         }
-        println("current:", current)
         diffMap += (attributeAndValue(0) -> (current + attributeAndValue(1).toInt))
       }else if(anded.split("-").length == 2){
         val attributeAndValue = anded.split("-")
-        val current = (xml \ "state" \ attributeAndValue(0)).text.toInt
+        val current = try {(xml \ "state" \ attributeAndValue(0)).text.toInt } catch {
+          case _: NumberFormatException => 0
+        }
         diffMap += (attributeAndValue(0) -> (current - attributeAndValue(1).toInt))
       }
     }
@@ -105,12 +116,4 @@ class ParagraphController @Inject()(val messagesApi: MessagesApi) extends Contro
   def injectValues(description: String, xml: scala.xml.Elem): String = {
     (for((piece,index) <- description.split("@").zipWithIndex) yield if (index % 2 == 0) piece else (xml \ "state" \ piece).text) mkString ""
   }
-
-  def attributeEquals(name: String, value: Text)(node: Node) = node.attributes.exists(_ == value)
-
-  val xmlForm = Form(
-    mapping(
-      "xml" -> nonEmptyText
-    )(UserXML.apply)(UserXML.unapply)
-  )
 }

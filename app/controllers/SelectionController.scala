@@ -40,7 +40,7 @@ class SelectionController @Inject()(val messagesApi: MessagesApi) extends Contro
       optionsCode += "<form method=\"POST\" action=\"/bind/\" style=\"text-align: center\">" +
         "<input type=\"text\" name=\"xml\" value=\"" + scala.xml.Utility.escape(xml.xml) + "\" style=\"display: none\" />" +
         "<input type=\"text\" name=\"map\" value=\"" + stringMap + "\" style=\"display: none\" />" +
-        "<input type=\"submit\" value=\"" + (e \ "@value").text + "\" class=\"answer\" onMouseOver=\"document.getElementById('description').innerHTML = '" + e.text + "';\" onMouseOut=\"document.getElementById('description').innerHTML = '';\"/>" +
+        "<input type=\"submit\" value=\"> " + (e \ "@value").text + "\" class=\"answer\" onMouseOver=\"document.getElementById('description').innerHTML = '" + e.text + "';\" onMouseOut=\"document.getElementById('description').innerHTML = '';\"/>" +
         "</form>"
     }
 

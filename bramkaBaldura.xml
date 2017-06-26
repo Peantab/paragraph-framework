@@ -37,6 +37,131 @@
         <header2>Wprowadzenie</header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag01.png</picture>
         <description>&lt;p class="firstParagraph"&gt;Znajdujesz się w karczmie, gdzieś na bezludziu Mostka Południowego. Popijałeś właśnie WINE i komentowałeś z karczmarzem warunki panujące w okolicy. Nagle drzwi otwierają się z hukiem.&lt;/p&gt;&lt;p&gt;– Straszna zawieja tam na zewnątrz! Jakiś pakiet z samego Sieciowego Podzespołu przywiało! – woła od progu przybysz, wyraźnie nie pochodzący z tych stron.&lt;/p&gt;&lt;p&gt;Tragarz danych to dość niewdzięczna fucha, a Ty chcesz odpocząć po ciężkim dniu.&lt;/p&gt;&lt;p&gt;– Odstawię go jutro na jakiś port, prześlą go, gdzie trzeba... – odpowiadasz od niechcenia.&lt;/p&gt;&lt;p&gt;– Jutro może być za późno... Nie został mu długi Time To Live.&lt;/p&gt;&lt;p&gt;Nie widząc innej możliwości wychodzisz zrezygnowany przed karczmę w poszukiwaniu nieszczęsnego pakietu.&lt;/p&gt;</description>
-        <answer next="1">Kontynuuj</answer>
+        <answer next="4">Kontynuuj</answer>
+    </paragraph>
+    <paragraph page-id="4">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag02.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Na dworze szaleje zamieć. Widzisz na odległość może 10 metrów. Pomimo gęsto padającego śniegu dostrzegasz na ziemi dwa rodzaje (nie swoich) śladów: te, które występują jedynie dalej od karczmy, są drobne, na skraju widoczności.&lt;/p&gt;</description>
+        <answer next="5">Udaj się za silnie typowymi śladami</answer>
+        <answer next="6">Udaj się za drobnymi śladami</answer>
+        <answer next="7" condition="klasa=z">[Złodziej]: Przechwyć sygnatury od bywalców karczmy, by przyporządkować ślady do właścicieli.</answer>
+        <answer next="8" condition="klasa=w">[Wojownik]: Korzystając z podręcznej brzytwy Ockhama wybierz właściwsze ślady</answer>
+        <answer next="9" condition="klasa=m">[Mag]: Napisz sieć neuronową, która rozpozna ślady.</answer>
+    </paragraph>
+    <paragraph page-id="5">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag02.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Podążasz za śladami, aż dostrzegasz tuż obok nich papierek po batoniku, jakich wiele wystawało z kieszeni przybysza, który dołożył ci roboty. Wściekły na siebie za wybranie złego tropu, nie widzisz powodu, by iść dalej w tym kierunku.&lt;/p&gt;</description>
+        <answer next="4">Wróć pod karczmę</answer>
+    </paragraph>
+    <paragraph page-id="7">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag02.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Szerokie ślady ewaluują się do ostatniego gościa karczmy.&lt;/p&gt;</description>
+        <answer next="6">Udaj się za drobnymi śladami</answer>
+    </paragraph>
+    <paragraph page-id="8">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag03.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Z prawdopodobieństwem szacowanym na 89% należy pójść za mniejszymi odciskami butów&lt;/p&gt;</description>
+        <answer next="5">Mimo wszystko udaj się jednak za silnie typowymi śladami. 11% to zawsze jednak około (11 +/- 10)%.</answer>
+        <answer next="6">Udaj się za drobnymi śladami</answer>
+    </paragraph>
+    <paragraph page-id="9">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag03.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Wieczór przechodzi w poranek, pogoda się uspakaja, a ty masz już pewność, że należy się udać za drobnymi, prawie zasypanymi już śladami.&lt;/p&gt;</description>
+        <answer next="6">Triumfalnie podążaj za drobnymi śladami, udowodniwszy wyższość metod rozumowych nad prostackimi rozwiązaniami.</answer>
+    </paragraph>
+    <paragraph page-id="6">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Po pięciu minutach drogi, przerywanej co chwilę poszukiwaniem tropu, drobna sylwetka zaczyna majaczyć na horyzoncie. W miarę, jak się zbliżasz dostrzegasz więcej szczegółów i widzisz, że pakiet goni przerażająca bestia. Musisz szybko coś zrobić&lt;/p&gt;</description>
+        <answer next="10">Zacznij krzyczeć na bestię.</answer>
+        <answer next="11" condition="klasa=w">[Wojownik]: Jesteś w swoim żywiole. Rzuć się w wir walki.</answer>
+        <answer next="12" condition="klasa=m">[Mag]: Odejdź z godnością w zarośla i zacznij bohatersko kodzić.</answer>
+        <answer next="13" condition="klasa=z">[Złodziej]: Zaadaptuj kod źródłowy bestii.</answer>
+        <answer next="14" condition="plec=m">Wiej. Nie chcesz być w końcu żadnym bohaterem.</answer>
+        <answer next="14" condition="plec=k">Wiej. Nie chcesz być w końcu żadną bohaterką.</answer>
+    </paragraph>
+    <paragraph page-id="10">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Chyba naprawdę nie myślałeś, że to cokolwiek da? Bestia popatrzyła na ciebie z politowaniem, odwróciła się i pobiegła dalej za pakietem.&lt;/p&gt;</description>
+        <answer next="11" condition="klasa=w">[Wojownik]: Jesteś w swoim żywiole. Rzuć się w wir walki.</answer>
+        <answer next="12" condition="klasa=m">[Mag]: Odejdź z godnością w zarośla i zacznij bohatersko kodzić.</answer>
+        <answer next="13" condition="klasa=z">[Złodziej]: Zaadaptuj kod źródłowy bestii.</answer>
+        <answer next="14" condition="plec=m">Wiej. Nie chcesz być w końcu żadnym bohaterem.</answer>
+        <answer next="14" condition="plec=k">Wiej. Nie chcesz być w końcu żadną bohaterką.</answer>
+    </paragraph>
+    <paragraph page-id="11">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Twój przeciwnik nie ma z tobą żadnych szans. W epicki sposób pokonujesz bestię, z pewnością będą o tym krążyć legendy.&lt;/p&gt;&lt;p&gt;Zebrał się spory tłum gapiów, podziwiających twoje zwycięstwo&lt;/p&gt;</description>
+        <answer next="15">Porozmawaiaj z przestraszonym pakietem.</answer>
+        <answer next="16" effect="slawa@1">Pozwalaj się adorować przez tłum.[+1 do sławy]</answer>
+    </paragraph>
+    <paragraph page-id="14">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag04.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;No i na tym kończy się twoja przygoda. Nie warto robić o tobie gry. Niestety, nie udało ci się wykonać zadania. Zwyciężył w tobie strach albo zdrowy rozsądek.&lt;/p&gt;</description>
+        <answer next="9999">Koniec</answer>
+    </paragraph>
+    <paragraph page-id="12">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Tym razem postawiłeś na minimalizm. Decydujesz się na drobną kulę ognistą. Dosięga ona bestii tuż przed tym, jak miała ona wbić swoje kły w pakiet. Zdążyłeś. Warto było skorzystać z gotowej biblioteki.&lt;/p&gt;</description>
+        <answer next="15">Porozmawaiaj z przestraszonym pakietem.</answer>
+    </paragraph>
+    <paragraph page-id="13">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Nikt nie spodziewał się takiego obrotu sprawy. Tak, stałeś się bestią. I co dalej?&lt;/p&gt;</description>
+        <answer next="17" effect="kodBestii=1">Walcz z bestią (tą drugą!).</answer>
+        <answer next="18">Złap pakiet zębami i przenieś w bezpieczne miejsce.</answer>
+    </paragraph>
+    <paragraph page-id="17">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Jesteś bestią. Czujesz się bestią. I czujesz krew. Smakujesz jej...&lt;/p&gt;&lt;p&gt;Ogromnego wysiłku woli wymaga od ciebie przywrócenie twojego repozytorium do stanu przed mergem z repo bestii.&lt;/p&gt;&lt;p&gt;Gdy odzyskujesz przytomność, bestia jest martwa, a pakiet patrzy na ciebie z przestrachem z oddali. Kod potwora zachowujesz w osobnym folderze.&lt;/p&gt;</description>
+        <answer next="15">Porozmawaiaj z przestraszonym pakietem.</answer>
+    </paragraph>
+    <paragraph page-id="18">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Oczyma bestii oceniasz sytuację. Jesteś nieznacznie bliżej pakietu niż twój przeciwnik. Ruszasz do biegu. O włos udaje ci się wyprzedzić wrogie monstrum, złapać pakiet zębami, wykonać ostry zwrot i pognać do karczmy.&lt;/p&gt;&lt;img class="krecha" src="https://github.com/Peantab/Paragraf/raw/master/przerywnik.png" /&gt;&lt;p&gt;Po dotarciu do karczmy i powrocie do ludzkiej formy zauważasz, że pakiet nie przeżył tej podróży – sytuacja doprowadziła go do zawału.&lt;/p&gt;&lt;p&gt;Zrobiłeś, co mogłeś, ale nie jesteś zadowolony obrotem spraw, podejrzewasz, że można było zrobić coś inaczej...&lt;/p&gt;&lt;p&gt;Wróciłeś niejako do punktu wyjścia: dzień był jeszcze bardziej męczący, a ty tym bardziej potrzebujsz odpoczynku w karczmie.&lt;/p&gt;</description>
+        <answer next="9999">Koniec</answer>
+    </paragraph>
+    <paragraph page-id="16">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;@imie@! @imie@! @imie@! – tłum skanduje twoje imie. Czujesz się niezwykle doceniony, jak jeszcze nigdy w życiu. Ma to efekt w postaci zwiększenia twojej pewności siebie.&lt;/p&gt;&lt;p&gt;Nikt w tłumie – który w sumie nie bardzo wiadomo, skąd się wziął – nie zwraca uwagi na pakiet, ale ty, o wielki, pamiętasz wciąż, po co tu jesteś&lt;/p&gt;</description>
+        <answer next="15">Porozmawaiaj ze skrytym w cieniu pakietem.</answer>
+    </paragraph>
+    <paragraph page-id="15">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Podchodzisz do skulonego ze strachu pakietu. Wygląda, jakby przebył właśnie długą drogę, znacznie dłuższą niż te, do której został powołany. Zastanawiasz się, jak zacząć rozmowę...&lt;/p&gt;</description>
+        <answer next="19">– Yyy... Co ty tu robisz?</answer>
+        <answer next="20">– Hej, stary! Sto lat cię nie widziałem, co tu porabiasz?!</answer>
+        <answer next="21" condition="klasa=z">[Złodziej]: – Zostajesz obciążony kosztami akcji pozbywania się potwora, zgodnie z obowiązującym cennikiem wynoszącymi 10 sztuk krzemu.</answer>
+        <answer next="22" condition="klasa=m">[Mag]: – pakiet.getStatus();</answer>
+        <answer next="20" condition="slawa>0">{Pewność siebie}: – Ja, jedyny i niepowtarzalny @imie@, wybawiłem cię od niechybnej śmierci. Czemuż to przysłużyły się moje bohaterskie czyny?</answer>
     </paragraph>
 </gamebook>

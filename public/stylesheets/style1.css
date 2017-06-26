@@ -131,4 +131,15 @@ input.answer{
     cursor: pointer;
     color: black;
     display: block;
+    text-align: left;
+    white-space: normal;
+}
+
+form.stateHolder{
+    text-align: right;
+}
+input.stateButton{
+    background-color: grey;
+    border-color: grey;
+    color: black;
 }

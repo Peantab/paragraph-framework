@@ -9,6 +9,9 @@
         @Html(description)
         <div id="options">
             @Html(answers)
+            <form class="stateHolder">
+            <input type="button" class="stateButton" value="Stan gry" onClick="state = window.open(''); state.document.write('<html><head><title>Paragraph: XML with current state</title></head><body><pre>@scala.xml.Utility.escape(xml)</pre></body></html>')" />
+            </form>
         </div>
     </div>
 </div>

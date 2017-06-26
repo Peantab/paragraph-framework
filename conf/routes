@@ -2,26 +2,26 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-# An example controller showing a sample home page
+# Main page with XML input box.
 GET     /                           controllers.HomeController.index
-# An example controller showing how to use dependency injection
-GET     /count                      controllers.CountController.count
-# An example controller showing how to write asynchronous code
-GET     /message                    controllers.AsyncController.message
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
+# title screen of a particular gamebook
 POST      /start/                    controllers.TitleController.index()
 
-POST    /navigate/                 controllers.NavigationController.navigate()
-GET    /navigate/                 controllers.NavigationController.navigate()
-
-POST    /selection/                 controllers.SelectionController.index()
-
-GET    /bind/                      controllers.BindData.bind()
+# Merge data from XML and a map with changes
 POST    /bind/                      controllers.BindData.bind()
 
+# Where should we go next?
+POST    /navigate/                 controllers.NavigationController.navigate()
+
+# Game page: select one of the options with long description
+POST    /selection/                 controllers.SelectionController.index()
+
+# Game page: text input
 POST     /text/                 controllers.TextController.index()
 
+# Game page: a paragraph with choices.
 POST     /paragraph/                 controllers.ParagraphController.index()

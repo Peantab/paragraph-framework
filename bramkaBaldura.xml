@@ -37,7 +37,7 @@
         <header1>Segment 1</header1>
         <header2>Wprowadzenie</header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag01.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Znajdujesz się w karczmie, gdzieś na bezludziu Mostka Południowego. Popijałeś właśnie WINE i komentowałeś z karczmarzem warunki panujące w okolicy. Nagle drzwi otwierają się z hukiem.&lt;/p&gt;&lt;p&gt;– Straszna zawieja tam na zewnątrz! Jakiś pakiet z samego Sieciowego Podzespołu przywiało! – woła od progu przybysz, wyraźnie nie pochodzący z tych stron.&lt;/p&gt;&lt;p&gt;Tragarz danych to dość niewdzięczna fucha, a Ty chcesz odpocząć po ciężkim dniu.&lt;/p&gt;&lt;p&gt;– Odstawię go jutro na jakiś port, prześlą go, gdzie trzeba... – odpowiadasz od niechcenia.&lt;/p&gt;&lt;p&gt;– Jutro może być za późno... Nie został mu długi Time To Live.&lt;/p&gt;&lt;p&gt;Nie widząc innej możliwości wychodzisz zrezygnowany przed karczmę w poszukiwaniu nieszczęsnego pakietu.&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Znajdujesz się w karczmie, gdzieś na bezludziu Mostka Południowego. Popijał@plec=m#e#a@ś właśnie WINE i komentował@plec=m#e#a@ś z karczmarzem warunki panujące w okolicy. Nagle drzwi otwierają się z hukiem.&lt;/p&gt;&lt;p&gt;– Straszna zawieja tam na zewnątrz! Jakiś pakiet z samego Sieciowego Podzespołu przywiało! – woła od progu przybysz, wyraźnie nie pochodzący z tych stron.&lt;/p&gt;&lt;p&gt;Tragarz danych to dość niewdzięczna fucha, a Ty chcesz odpocząć po ciężkim dniu.&lt;/p&gt;&lt;p&gt;– Odstawię go jutro na jakiś port, prześlą go, gdzie trzeba... – odpowiadasz od niechcenia.&lt;/p&gt;&lt;p&gt;– Jutro może być za późno... Nie został mu długi Time To Live.&lt;/p&gt;&lt;p&gt;Nie widząc innej możliwości wychodzisz zrezygnowan@plec=m#y#a@ przed karczmę w poszukiwaniu nieszczęsnego pakietu.&lt;/p&gt;</description>
         <answer next="4">Kontynuuj</answer>
     </paragraph>
     <paragraph page-id="4">
@@ -55,7 +55,7 @@
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag02.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Podążasz za śladami, aż dostrzegasz tuż obok nich papierek po batoniku, jakich wiele wystawało z kieszeni przybysza, który dołożył ci roboty. Wściekły na siebie za wybranie złego tropu, nie widzisz powodu, by iść dalej w tym kierunku.&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Podążasz za śladami, aż dostrzegasz tuż obok nich papierek po batoniku, jakich wiele wystawało z kieszeni przybysza, który dołożył ci roboty. Wściekł@plec=m#y#a@ na siebie za wybranie złego tropu, nie widzisz powodu, by iść dalej w tym kierunku.&lt;/p&gt;</description>
         <answer next="4">Wróć pod karczmę</answer>
     </paragraph>
     <paragraph page-id="7">
@@ -96,7 +96,7 @@
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Chyba naprawdę nie myślałeś, że to cokolwiek da? Bestia popatrzyła na ciebie z politowaniem, odwróciła się i pobiegła dalej za pakietem.&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Chyba naprawdę nie myślał@plec=m#e#a@ś, że to cokolwiek da? Bestia popatrzyła na ciebie z politowaniem, odwróciła się i pobiegła dalej za pakietem.&lt;/p&gt;</description>
         <answer next="11" condition="klasa=w">[Wojownik]: Jesteś w swoim żywiole. Rzuć się w wir walki.</answer>
         <answer next="12" condition="klasa=m">[Mag]: Odejdź z godnością w zarośla i zacznij bohatersko kodzić.</answer>
         <answer next="13" condition="klasa=z">[Złodziej]: Zaadaptuj kod źródłowy bestii.</answer>
@@ -115,21 +115,21 @@
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag04.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;No i na tym kończy się twoja przygoda. Nie warto robić o tobie gry. Niestety, nie udało ci się wykonać zadania. Zwyciężył w tobie strach albo zdrowy rozsądek.&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;No i na tym kończy się twoja przygoda. Nie warto robić o tobie gry. Niestety, nie udało Ci się wykonać zadania. Zwyciężył w Tobie strach albo zdrowy rozsądek.&lt;/p&gt;</description>
         <answer next="9999">Koniec</answer>
     </paragraph>
     <paragraph page-id="12">
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Tym razem postawiłeś na minimalizm. Decydujesz się na drobną kulę ognistą. Dosięga ona bestii tuż przed tym, jak miała ona wbić swoje kły w pakiet. Zdążyłeś. Warto było skorzystać z gotowej biblioteki.&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Tym razem postawił@plec=m#e#a@ś na minimalizm. Decydujesz się na drobną kulę ognistą. Dosięga ona bestii tuż przed tym, jak miała ona wbić swoje kły w pakiet. Zdążył@plec=m#e#a@ś. Warto było skorzystać z gotowej biblioteki.&lt;/p&gt;</description>
         <answer next="15">Porozmawaiaj z przestraszonym pakietem.</answer>
     </paragraph>
     <paragraph page-id="13">
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Nikt nie spodziewał się takiego obrotu sprawy. Tak, stałeś się bestią. I co dalej?&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Nikt nie spodziewał się takiego obrotu sprawy. Tak, stał@plec=m#e#a@ś się bestią. I co dalej?&lt;/p&gt;</description>
         <answer next="17" effect="kodBestii=1">Walcz z bestią (tą drugą!).</answer>
         <answer next="18">Złap pakiet zębami i przenieś w bezpieczne miejsce.</answer>
     </paragraph>
@@ -137,32 +137,124 @@
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Jesteś bestią. Czujesz się bestią. I czujesz krew. Smakujesz jej...&lt;/p&gt;&lt;p&gt;Ogromnego wysiłku woli wymaga od ciebie przywrócenie twojego repozytorium do stanu przed mergem z repo bestii.&lt;/p&gt;&lt;p&gt;Gdy odzyskujesz przytomność, bestia jest martwa, a pakiet patrzy na ciebie z przestrachem z oddali. Kod potwora zachowujesz w osobnym folderze.&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Jesteś bestią. Czujesz się bestią. I czujesz krew. Smakujesz jej...&lt;/p&gt;&lt;p&gt;Ogromnego wysiłku woli wymaga od Ciebie przywrócenie Twojego repozytorium do stanu przed mergem z repo bestii.&lt;/p&gt;&lt;p&gt;Gdy odzyskujesz przytomność, bestia jest martwa, a pakiet patrzy na ciebie z przestrachem z oddali. Kod potwora zachowujesz w osobnym folderze.&lt;/p&gt;</description>
         <answer next="15">Porozmawaiaj z przestraszonym pakietem.</answer>
     </paragraph>
     <paragraph page-id="18">
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag05.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Oczyma bestii oceniasz sytuację. Jesteś nieznacznie bliżej pakietu niż twój przeciwnik. Ruszasz do biegu. O włos udaje ci się wyprzedzić wrogie monstrum, złapać pakiet zębami, wykonać ostry zwrot i pognać do karczmy.&lt;/p&gt;&lt;img class="krecha" src="https://github.com/Peantab/Paragraf/raw/master/przerywnik.png" /&gt;&lt;p&gt;Po dotarciu do karczmy i powrocie do ludzkiej formy zauważasz, że pakiet nie przeżył tej podróży – sytuacja doprowadziła go do zawału.&lt;/p&gt;&lt;p&gt;Zrobiłeś, co mogłeś, ale nie jesteś zadowolony obrotem spraw, podejrzewasz, że można było zrobić coś inaczej...&lt;/p&gt;&lt;p&gt;Wróciłeś niejako do punktu wyjścia: dzień był jeszcze bardziej męczący, a ty tym bardziej potrzebujsz odpoczynku w karczmie.&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Oczyma bestii oceniasz sytuację. Jesteś nieznacznie bliżej pakietu niż twój przeciwnik. Ruszasz do biegu. O włos udaje ci się wyprzedzić wrogie monstrum, złapać pakiet zębami, wykonać ostry zwrot i pognać do karczmy.&lt;/p&gt;&lt;img class="krecha" src="https://github.com/Peantab/Paragraf/raw/master/przerywnik.png" /&gt;&lt;p&gt;Po dotarciu do karczmy i powrocie do ludzkiej formy zauważasz, że pakiet nie przeżył tej podróży – sytuacja doprowadziła go do zawału.&lt;/p&gt;&lt;p&gt;Zrobił@plec=m#e#a@ś, co mogł@plec=m#e#a@ś, ale nie jesteś zadowolon@plec=m#y#a@ obrotem spraw, podejrzewasz, że można było zrobić coś inaczej...&lt;/p&gt;&lt;p&gt;Wrócił@plec=m#e#a@ś niejako do punktu wyjścia: dzień był jeszcze bardziej męczący, a Ty tym bardziej potrzebujsz odpoczynku w karczmie.&lt;/p&gt;</description>
         <answer next="9999">Koniec</answer>
     </paragraph>
     <paragraph page-id="16">
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;@imie@! @imie@! @imie@! – tłum skanduje twoje imie. Czujesz się niezwykle doceniony, jak jeszcze nigdy w życiu. Ma to efekt w postaci zwiększenia twojej pewności siebie.&lt;/p&gt;&lt;p&gt;Nikt w tłumie – który w sumie nie bardzo wiadomo, skąd się wziął – nie zwraca uwagi na pakiet, ale ty, o wielki, pamiętasz wciąż, po co tu jesteś&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;@imie@! @imie@! @imie@! – tłum skanduje Twoje imie. Czujesz się niezwykle docenion@plec=m#y#a@, jak jeszcze nigdy w życiu. Ma to efekt w postaci zwiększenia Twojej pewności siebie.&lt;/p&gt;&lt;p&gt;Nikt w tłumie – który w sumie nie bardzo wiadomo, skąd się wziął – nie zwraca uwagi na pakiet, ale ty, o wielk@plec=m#i#a@, pamiętasz wciąż, po co tu jesteś&lt;/p&gt;</description>
         <answer next="15">Porozmawaiaj ze skrytym w cieniu pakietem.</answer>
     </paragraph>
     <paragraph page-id="15">
         <header1>Segment 1</header1>
         <header2></header2>
         <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
-        <description>&lt;p class="firstParagraph"&gt;Podchodzisz do skulonego ze strachu pakietu. Wygląda, jakby przebył właśnie długą drogę, znacznie dłuższą niż te, do której został powołany. Zastanawiasz się, jak zacząć rozmowę...&lt;/p&gt;</description>
+        <description>&lt;p class="firstParagraph"&gt;Podchodzisz do skulonego ze strachu pakietu. Wygląda, jakby przebył właśnie długą drogę, znacznie dłuższą niż tę, do której został powołany. Zastanawiasz się, jak zacząć rozmowę...&lt;/p&gt;</description>
         <answer next="19">– Yyy... Co ty tu robisz?</answer>
-        <answer next="20">– Hej, stary! Sto lat cię nie widziałem, co tu porabiasz?!</answer>
-        <answer next="21" condition="klasa=z">[Złodziej]: – Zostajesz obciążony kosztami akcji pozbywania się potwora, zgodnie z obowiązującym cennikiem wynoszącymi 10 sztuk krzemu.</answer>
+        <answer next="20">– Hej, stary! Sto lat cię nie widział@plec=m#e#a@m, co tu porabiasz?!</answer>
+        <answer next="21" condition="klasa=z" effect="krzem@10">[Złodziej]: – Zostajesz obciążony kosztami akcji pozbywania się potwora, zgodnie z obowiązującym cennikiem wynoszącymi 10 sztuk krzemu.</answer>
         <answer next="22" condition="klasa=m">[Mag]: – pakiet.getStatus();</answer>
-        <answer next="20" condition="slawa>0">{Pewność siebie}: – Ja, jedyny i niepowtarzalny @imie@, wybawiłem cię od niechybnej śmierci. Czemuż to przysłużyły się moje bohaterskie czyny?</answer>
+        <answer next="20" condition="slawa>0">{Pewność siebie}: – Ja, jedyn@plec=m#y#a@ i niepowtarzaln@plec=m#y#a@ @imie@, wybawił@plec=m#e#a@m cię od niechybnej śmierci. Czemuż to przysłużyły się moje bohaterskie czyny?</answer>
+    </paragraph>
+    <paragraph page-id="20">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Pakiet patrzy na ciebie jak na czubka. Na moment z jego oblicza znika strach. Decyduje się przemówić&lt;/p&gt;</description>
+        <answer next="19">Czekaj.</answer>
+    </paragraph>
+    <paragraph page-id="21">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Na brzmienie słów „sztuki miedzi”, pakiet natychmiast odzyskuje przytomność umysłu. Niechętnie wręcza ci monety.&lt;/p&gt;</description>
+        <answer next="19">Czekaj.</answer>
+    </paragraph>
+    <paragraph page-id="22">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;&lt;pre style="text-align: left;"&gt;struct Pakiet{&lt;/pre&gt;&lt;br /&gt;&lt;pre&gt;    string name="TeCeP";&lt;/pre&gt;&lt;br /&gt;&lt;pre&gt;    string state="frightened";&lt;/pre&gt;&lt;br /&gt;&lt;pre&gt;};&lt;/pre&gt;&lt;/p&gt;</description>
+        <answer next="23" effect="TCPStatus=1">– Witaj, TeCeP. Co sprawiło, że zapuściłeś się w tak daleko?</answer>
+        <answer next="19">– Yyy... Co ty tu robisz?</answer>
+        <answer next="20">– Hej, stary! Sto lat cię nie widział@plec=m#e#a@m, co tu porabiasz?!</answer>
+    </paragraph>
+    <paragraph page-id="23">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;TeCeP, skonfundowany, patrzy na Ciebie, jakby próbował sobie coś przypomnieć&lt;/p&gt;&lt;p&gt;– My się znamy? Nie kojarzę pan@plec=m#a#i@... Ale jak już pan@plec=k#i@ pyta...&lt;/p&gt;</description>
+        <answer next="19">Słuchaj dalej.</answer>
+    </paragraph>
+    <paragraph page-id="19">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Pakiet zaczyna niechętnie:&lt;/p&gt;&lt;p&gt;– Próbowałem dostać się do Warstwy Transportowej. Wyruszyłem dobrze z tydzień temu. Pięć dni temu rozpętała się zamieć. Musiałem wówczas zgubić drogę... Gdzie właściwie jestem?@TCPStatus&lt;1# Tak w ogóle – mów mi TeCeP.@&lt;/p&gt;</description>
+        <answer next="24">– No więc, drogi TeCePie, znajdujesz się kompletnie nie tam, gdzie chciałbyś się znajdować, to jest stanowczo nie u swego celu. Natomiast zdecydowanie bliżej osad na południu macierzy.</answer>
+        <answer next="24">– W Południowym Mostku.</answer>
+        <answer next="24" condition="klasa=m">[Mag]: (po krótkim zastanowieniu) – Znajdujesz się w punkcie (-2.7182e8,-1.12358e13)px względem środka masy Warstwy Transportowej.</answer>
+    </paragraph>
+    <paragraph page-id="24">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p&gt;– Niedobrze... Muszę pilnie dotrzeć na miejsce. Administrator Baldur wysłał komendy, które mają dotrzeć do wszystkich jednostek w LANie. (Lenno Administratorów *Nixowych)&lt;/p&gt;</description>
+        <answer next="25">– Jeśli naprawdę muszę, mogę cię zaprowadzić.</answer>
+        <answer next="26" condition="klasa=z" effect="krzem@100">[Złodziej]: – Droga jest pełna niebezpieczeństw dla takich nieporadnych stworzonek jak ty, ale mogę cię odeskortować za niewielką opłatą 100 sztuk krzemu.</answer>
+        <answer next="27" condition="klasa=w">[Wojownik]: – Droga jest pełna niebezpieczeństw dla nieuzbrojonych wędrowców, ale mogę cię odeskortować z dobroci serca.</answer>
+        <answer next="28" condition="kodBestii=1">{Kod potwora}: – Mogę cię przemienić w bestię. Dotrzesz wtedy bezpiecznie, a u celu przemienisz się z powrotem w pakiet (...albo i nie).</answer>
+        <answer next="29">– To naprawdę nie jest mój problem. Nie musisz mi dziękować za ratowanie życia. Wracam do karczmy.</answer>
+    </paragraph>
+    <paragraph page-id="25">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p&gt;– Byłbym bardzo wdzięczny. Straciłem już wiarę, że jeszcze dotrę do celu.&lt;/p&gt;&lt;p&gt;Przygotowujecie zapasy i pakujecie się na co najmniej tygodniową drogę. Zamierzacie wyruszyć następnego dnia o świcie.&lt;/p&gt;</description>
+        <answer next="30">Zakończ segment pierwszy</answer>
+    </paragraph>
+    <paragraph page-id="26">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p&gt;– Jestem skłonny zpłacić tą kwotę. Informacja jest cenniejsza niż krzem!&lt;/p&gt;&lt;p&gt;Pomysł podróży nieszczególnie Ci się podoba, ale czego to się nie robi za garść krzemiaków. Stracisz może dwa tygodnie, ale zarobek jest godziwy.&lt;/p&gt;</description>
+        <answer next="30">Zakończ segment pierwszy</answer>
+    </paragraph>
+    <paragraph page-id="27">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag06.png</picture>
+        <description>&lt;p&gt;– To wspaniale! Zawsze marzyłem, żeby spotkać @plec=m#takiego bohatera#taką bohaterkę@, jak ty!&lt;/p&gt;&lt;p&gt;Już nie możesz doczekać się początku podróży - czeka Cię nowa, wspaniała przygoda!&lt;/p&gt;</description>
+        <answer next="30">Zakończ segment pierwszy</answer>
+    </paragraph>
+    <paragraph page-id="28">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag04.png</picture>
+        <description>&lt;p&gt;– Czy to na pewno bezpieczne...? No dobrze, raz się żyje...&lt;/p&gt;&lt;p&gt;Linkujesz kod potwora, po czym kompilujesz. Przemieniony TeCep biegnie na północ dużo szybciej, niż mógłby jako pakiet, nie obawiając się żadnych zagrożeń. To pewność siebię, czy też instynkt bestii zdominował już umysł gońca?&lt;/p&gt;&lt;img class="krecha" src="https://github.com/Peantab/Paragraf/raw/master/przerywnik.png" /&gt;&lt;p class=\"firstParagraph\"&gt;Wracasz do karczmy i dopijasz pozostawionego w niej grzańca.&lt;/p&gt;&lt;p&gt;– I co z tym pakietem? – pyta wędrowiec, który zdążył już poczuć się tu jak u sebie.&lt;/p&gt;&lt;p&gt;– Wyruszył w dalszą drogę. Raczej dotrze, a jeśli dotrze, to na pewno na czas.&lt;/p&gt;&lt;p&gt;Jest to ostatni moment, w którym zaprzątasz sobie nim głowę. Nigdy więcej nie otrzymał@plec=m#e#a@ś już o nim żadnych informacji... Dotarł?... Przeżył?... Dostarczył wiadomość?...&lt;/p&gt;&lt;p&gt;Na te pytania nigdy już nie poznasz odpowiedzi, ale też nigdy tak na prawdę nie chciał@plec=m#e#a@ś...&lt;/p&gt;</description>
+        <answer next="9999">Koniec</answer>
+    </paragraph>
+    <paragraph page-id="29">
+        <header1>Segment 1</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag04.png</picture>
+        <description>&lt;p&gt;– Nic cię nie obchodzi los multiwersum! Nie to nie, nie będę cię zmuszać. – TeCeP wykrzykuje z wyrzutem, wyczuwasz też w jego głosie zawód. Ale co cię to obchodzi?&lt;/p&gt;&lt;p&gt;Figurka posłańca, targana wiatrem, powoli znika na tle horyzontu. Prawdopodobnie jest to bardzo malowniczy, nastrojowy widok, ale nie masz czasu ani ochoty, by go obserwować.&lt;/p&gt;&lt;img class="krecha" src="https://github.com/Peantab/Paragraf/raw/master/przerywnik.png" /&gt;&lt;p class="firstParagraph"&gt;Wracasz do karczmy i dopijasz pozostawionego w niej grzańca.&lt;/p&gt;&lt;p&gt;– I co z tym pakietem? – pyta wędrowiec, który zdążył już poczuć się tu jak u sebie.&lt;/p&gt;&lt;p&gt;– Wyruszył w dalszą drogę.&lt;/p&gt;&lt;p&gt;Jest to ostatni moment, w którym zaprzątasz sobie nim głowę. Nigdy więcej nie otrzymał@plec=m#e#a@ś już o nim żadnych informacji... Dotarł?... Przeżył?... Dostarczył wiadomość?...&lt;/p&gt;&lt;p&gt;Na te pytania nigdy już nie poznasz odpowiedzi, ale też nigdy tak na prawdę nie chciał@plec=m#e#a@ś...&lt;/p&gt;</description>
+        <answer next="9999">Koniec</answer>
+    </paragraph>
+    <paragraph page-id="30">
+        <header1>Segment 2?</header1>
+        <header2></header2>
+        <picture>https://github.com/Peantab/Paragraf/raw/master/imag03.png</picture>
+        <description>&lt;p class="firstParagraph"&gt;Skoro tu dotarł@plec=m#e#a@ś, przygoda jeszcze się dla Ciebie nie skończyła!&lt;/p&gt;&lt;p&gt;Za pomocą systemu Paragraph możesz napisać jej dalszy ciąg, posiłkując się prostymi tagami XMLa i wykorzystując HTMLa do stylizowania treści. Przy pomocy naszego prostego, minimalistycznego jęyka skryptowego możesz też nadać mu dodatkowej głębi, dywersyfikując doświadczenia gracza w zależności od wszystkich podjętych przez niego w ciągu całej gry wyborów.&lt;/p&gt;&lt;p&gt;Opisz sam@plec=k#a@ dalsze przygody, które przeżyje @imie@ z TeCePem lub stwórz własną historię od podstaw!&lt;/p&gt;&lt;p&gt;Dziękujemy za grę.&lt;/p&gt;</description>
+        <answer next="9999">Koniec</answer>
     </paragraph>
 </gamebook>

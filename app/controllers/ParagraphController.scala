@@ -114,6 +114,16 @@ object ParagraphController {
   }
 
   def injectValues(description: String, xml: scala.xml.Elem): String = {
-    (for((piece,index) <- description.split("@").zipWithIndex) yield if (index % 2 == 0) piece else (xml \ "state" \ piece).text) mkString ""
+    def testAndReplace(piece: String): String ={
+      val testAndVariable = piece.split("#")
+      if (testAndVariable.length == 1) (xml \ "state" \ piece).text
+      else if(testAndVariable.length == 2) {
+        if (ParagraphController.cndtn(testAndVariable(0), xml)) testAndVariable(1) else ""
+      }else {
+        if (ParagraphController.cndtn(testAndVariable(0), xml)) testAndVariable(1) else testAndVariable(2)
+      }
+    }
+
+    (for((piece,index) <- description.split("@").zipWithIndex) yield if (index % 2 == 0) piece else testAndReplace(piece)) mkString ""
   }
 }

@@ -217,6 +217,34 @@ class ApplicationSpec extends PlaySpec with OneAppPerTest {
       val elem = scala.xml.XML.loadString(xml)
       ParagraphController.injectValues(dscrptn, elem) mustBe "Odpowiedz to 42."
     }
+
+    "find out that condition is met and print a literal" in {
+      val dscrptn = "Ala ma @koty=1#zwierze@."
+      val xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<gamebook><state><koty>1</koty></state></gamebook>"
+      val elem = scala.xml.XML.loadString(xml)
+      ParagraphController.injectValues(dscrptn, elem) mustBe "Ala ma zwierze."
+    }
+
+    "find out that condition is not met and print nothing" in {
+      val dscrptn = "Ala ma @koty=1#zwierze@."
+      val xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<gamebook><state><koty>0</koty></state></gamebook>"
+      val elem = scala.xml.XML.loadString(xml)
+      ParagraphController.injectValues(dscrptn, elem) mustBe "Ala ma ."
+    }
+
+    "find out that condition is met in ternary operator, print appropriate literal" in {
+      val dscrptn = "Ala ma @koty=1#kota#koty@."
+      val xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<gamebook><state><koty>1</koty></state></gamebook>"
+      val elem = scala.xml.XML.loadString(xml)
+      ParagraphController.injectValues(dscrptn, elem) mustBe "Ala ma kota."
+    }
+
+    "find out that condition is not met in ternary operator, print appropriate literal" in {
+      val dscrptn = "Ala ma @koty=1#kota#koty@."
+      val xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<gamebook><state><koty>5</koty></state></gamebook>"
+      val elem = scala.xml.XML.loadString(xml)
+      ParagraphController.injectValues(dscrptn, elem) mustBe "Ala ma koty."
+    }
   }
 
 }
